@@ -16,6 +16,7 @@
 		A03F52731E45847400FC0956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A03F52711E45847400FC0956 /* LaunchScreen.storyboard */; };
 		A03F527E1E45847400FC0956 /* JYUnitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F527D1E45847400FC0956 /* JYUnitTestDemoTests.m */; };
 		A03F52891E45847400FC0956 /* JYUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A03F52881E45847400FC0956 /* JYUnitTestDemoUITests.m */; };
+		A0D41A581E4820BE00F44574 /* DefaultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D41A571E4820BE00F44574 /* DefaultTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		A03F52841E45847400FC0956 /* JYUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03F52881E45847400FC0956 /* JYUnitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYUnitTestDemoUITests.m; sourceTree = "<group>"; };
 		A03F528A1E45847400FC0956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D41A571E4820BE00F44574 /* DefaultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		A03F527C1E45847400FC0956 /* JYUnitTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				A0D41A571E4820BE00F44574 /* DefaultTests.m */,
 				A03F527D1E45847400FC0956 /* JYUnitTestDemoTests.m */,
 				A03F527F1E45847400FC0956 /* Info.plist */,
 			);
@@ -322,7 +325,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C1ADAF4EF8A075BD29D4C34B /* [CP] Embed Pods Frameworks */ = {
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A03F527E1E45847400FC0956 /* JYUnitTestDemoTests.m in Sources */,
+				A0D41A581E4820BE00F44574 /* DefaultTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +579,7 @@
 				A03F528F1E45847400FC0956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A03F52901E45847400FC0956 /* Build configuration list for PBXNativeTarget "JYUnitTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +588,7 @@
 				A03F52921E45847400FC0956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A03F52931E45847400FC0956 /* Build configuration list for PBXNativeTarget "JYUnitTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +597,7 @@
 				A03F52951E45847400FC0956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

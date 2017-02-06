@@ -25,4 +25,8 @@
 //    UIAlertAction
 }
 
+- (int)getNum {
+    return 100;
+}
+
 @end
